@@ -1,0 +1,108 @@
+body{
+background-image: url(./Screenshot\ \(215\).png);
+background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}/* nav start */
+.navbar nav img{
+    height: 60px;
+    width: 60px;
+border-radius: 50%;
+}
+.navbar nav{
+    display: flex;
+    background-color: rgb(27, 130, 214);
+   
+}
+.navbar nav ul{
+    display: flex;
+    margin-left: 350px;
+    gap: 70px;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    
+
+}
+.navbar nav ul li{
+
+    margin-top: 10px;
+
+}
+.navbar nav span{
+    color: rgb(238, 238, 247);
+    font-size: 30px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+ul li:hover{
+    color: rgb(7, 7, 122);
+    cursor: pointer;
+}
+.navbar ul  button{
+    background-color: rgb(6, 67, 199);
+    display: flex;
+    font-size: 20px;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid rgb(9, 9, 131);
+    height: 40px;
+    width: 110px;
+    transition: 0.5s;
+    padding-left: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.navbar ul button:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+/* navabr end */
+/* about :start */
+.about{
+display: flex;
+display: flex;
+    background-color:transparent ;
+    gap: 500px;
+    height: 500px;
+    width: 1500px;
+}
+.web h1{
+    color: blue;
+    font-size: 40px;
+    display: flex;
+    margin-left: 70px;
+    text-align: center;
+    
+    margin-left: 120px;
+}
+.web p{
+    color: blue;
+    margin-left: 90px;
+    text-align: center; 
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .web button{
+    font-size: 25px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgb(15, 111, 175);
+    text-align: center;
+    color:rgb(6, 6, 95) ;
+    margin-left: 170px;
+    margin-top: 40px;
+    
+    }
+    .web button:hover{
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
+    }
+    .ll img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-right: 20px; 
+    margin-top: 30px;
+    
+    }
